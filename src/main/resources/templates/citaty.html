@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/png" href="/images/favicon.png">
 
-    <div id="dp-container"  th:style="'background-image:url(' + ${obrazek} + ');'"> <!--if it works, let it be-->
+    <div id="dp-container"  > <!--if it works, let it be-->
 </head>
-<body>
+<body th:style="'background-image:url(' + ${obrazek} + ');'">
 <blockquote>
     <span th:text=" ${citace}"><strong>Debugging</strong> /de·bugh·ing/ <em>verb</em><br/>
     The Classic Mystery Game where you are the detective, the victim, and the murderer.
